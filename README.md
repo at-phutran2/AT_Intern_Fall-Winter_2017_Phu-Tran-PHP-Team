@@ -24,7 +24,14 @@
 	Using gitignore to store file untracked (file you want to delete)
 	* another way to remove untracked file by using this command "git -rm --cached filename"
 6. Git Branch and merege:
-	
+	Using Branch in git make thing easy to manage
+	* Git branch create: " git branch branchname"
+	(git branch -d branchname) to delete branch
+	("git branch") to check current branch
+	* After create using "git checkout" to connect to new branch"
+	As usually we use "git push origin master" to push our code to master branch if we've just create the new branch the command will turn to : git push origin branchname
+If we want to merge code from new branch to master branch, using "git check out master" to enter master branch --> then using git merge branchname (merge file from branchname to master branch)
+7. Git Pull	
 
 
 
