@@ -3,9 +3,9 @@ session_start();
 
 // Define database
 define('dbhost', 'localhost');
-define('dbuser', 'phu');
+define('dbuser', 'root');
 define('dbpass', '1');
-define('dbname', 'test2');
+define('dbname', 'users');
 
 // Connecting database
 try {

@@ -25,12 +25,13 @@
 
 		if($errMsg == ''){
 			try {
-				$stmt = $connect->prepare('INSERT INTO pdo (fullname, username, password, email) VALUES (:fullname, :username, :password, :email)');
+				$stmt = $connect->prepare('INSERT INTO users (fullname, username, password, email,image) VALUES (:fullname, :username, :password, :email, :image)');
 				$stmt->execute(array(
 					':fullname' => $fullname,
 					':username' => $username,
 					':password' => $password,
-					':email' => $email
+					':email' => $email,
+					':image' => $image
 					));
 				header('Location: register.php?action=joined');
 				exit;

@@ -15,7 +15,7 @@
 
 		if($errMsg == '') {
 			try {
-				$stmt = $connect->prepare('SELECT id, fullname, username, password, email FROM pdo WHERE username = :username');
+				$stmt = $connect->prepare('SELECT id, fullname, username, password, email FROM users WHERE username = :username');
 				$stmt->execute(array(
 					':username' => $username
 					));

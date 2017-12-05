@@ -1,0 +1,5 @@
+Log created: 2017-12-05T09:31:20.171659000Z
+Executable: /usr/lib/virtualbox/VBoxSVC
+Arg[0]: /usr/lib/virtualbox/VBoxSVC
+Arg[1]: --auto-shutdown
+AddRef: illegal refcnt=3221225469 state=2

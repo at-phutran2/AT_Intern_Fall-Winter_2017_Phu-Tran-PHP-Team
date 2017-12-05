@@ -1,5 +1,5 @@
 <html>
-<head><title>Baitap</title></head>
+<head><title>PHPbasic</title></head>
 	
 <body>
 	<div align="center">
